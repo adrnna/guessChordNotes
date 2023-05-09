@@ -286,7 +286,7 @@ namespace guessChordNotes
 
 
 
-
+//PYTHON CODE
 //# Asks for a chord name and outputs the corresponding chord notes.
 
 //Notes = ["A", "A#", "B", "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#"]
