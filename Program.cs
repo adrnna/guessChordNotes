@@ -46,7 +46,7 @@ namespace guessChordNotes
                 bool first_answer_correct = true;
 
                 List<string> my_chords = new List<string>()
-                {      //add flats! and all other stuff
+                {      //add flats etc.
                     "Ab", "A", "A#", "Bb", "B", "C", "C#", "Db", "D", "D#", "Eb", "E", "F", "F#", "G", "G#"
                 };
 
@@ -89,8 +89,7 @@ namespace guessChordNotes
                 //Find the correct letter (only) of the 3rd and 5th
                 string third = sorted_notes[2];
                 string fifth = sorted_notes[4];
-
-                //Find the (sometimes wrong) 3rd and 5th from the "wrong" key
+                
                 // Find the key list 
                 string dict_list = char_letter + "_key";
                 var dictionary = new Dictionary<string, string[]>()
